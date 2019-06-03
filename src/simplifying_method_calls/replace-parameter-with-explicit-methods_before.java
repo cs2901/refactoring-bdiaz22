@@ -1,11 +1,8 @@
-void setValue(String name, int value) {
-  if (name.equals("height")) {
-    height = value;
-    return;
-  }
-  if (name.equals("width")) {
+//separate the method in two parts
+void height(int value){
+    height =  value;
+}
+
+void width(int value){
     width = value;
-    return;
-  }
-  Assert.shouldNeverReachHere();
 }

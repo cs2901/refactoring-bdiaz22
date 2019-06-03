@@ -1,7 +1,10 @@
 void printOwing() {
   printBanner();
+  printDetails();
 
-  // Print details.
-  System.out.println("name: " + name);
-  System.out.println("amount: " + getOutstanding());
+}
+
+void printDetails(){
+    System.out.println("name: " + name);
+    System.out.println("amount: " + getOutstanding());
 }

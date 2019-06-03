@@ -1,4 +1,5 @@
-double temp = 2 * (height + width);
-System.out.println(temp);
-temp = height * width;
-System.out.println(temp);
+//declare different variables.
+double rectangle_perimeter = 2 * (height + width);
+System.out.println(rectangle_perimeter);
+double rectangle_area = height * width;
+System.out.println(rectangle_area);
